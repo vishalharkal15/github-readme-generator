@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@variant dark (&:where(.dark, .dark *));
+
+/* Custom scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #e2e8f0 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e2e8f0;
+  border-radius: 9999px;
+}
+
+.dark *::-webkit-scrollbar-thumb {
+  background-color: #374151;
+}
+
+html {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.prose img {
+  display: inline-block;
+  margin: 2px;
+  vertical-align: middle;
+}
+
+.prose table {
+  font-size: 0.8rem;
+}
+
+.prose pre {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
