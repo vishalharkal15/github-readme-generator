@@ -206,8 +206,6 @@ This project is licensed under the **MIT License** — free to use, modify, and 
 
 <div align="center">
 
-If this project helped you, please consider giving it a ⭐ on GitHub — it means a lot!
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19&height=100&section=footer" />
 
 </div>
