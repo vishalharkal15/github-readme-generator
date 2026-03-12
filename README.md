@@ -15,7 +15,7 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-181717?style=for-the-badge)](https://github.com/vishalharkal15/github-readme-generator)
+[![Live Demo](https://stunning-syrniki-ad75b0.netlify.app/)
 [![GitHub Stars](https://img.shields.io/github/stars/vishalharkal15/github-readme-generator?style=for-the-badge&logo=github&color=yellow)](https://github.com/vishalharkal15/github-readme-generator/stargazers)
 
 </div>
