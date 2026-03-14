@@ -1076,7 +1076,7 @@ function quantumComputingTemplate(
 
 | Area | Details |
 |------|---------|
-| 🔮 Quantum Algorithms | Shor's, Grover's, QAOA, VQE |
+| 🔮 Quantum Algorithms | Shor'S, Grover's, QAOA, VQE |
 | 🔑 Quantum Cryptography | QKD, Post-Quantum Crypto, BB84 |
 | 🧠 Quantum ML | QNN, Quantum Kernels, Variational Circuits |
 | 🛠️ Frameworks | Qiskit, Cirq, PennyLane, Braket |
