@@ -76,7 +76,7 @@ Simply fill in your profile details, choose a domain template, add your skill ba
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org) v18 or higher
+- [Node.js](https://nodejs.org) v18 or Higher
 - npm / yarn / pnpm
 
 ### Installation
