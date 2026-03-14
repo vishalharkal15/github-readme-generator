@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19&height=180&section=header&text=GitHub%20README%20Generator&fontSize=42&fontAlignY=36&animation=twinkling&fontColor=white" />
 
 <h3>⚡ Build a stunning GitHub Profile README in minutes</h3>
-<p>No markdown knowledge needed · No sign-up · 100% Free & Open Source</p>
+<p>No Markdown knowledge needed · No sign-up · 100% Free & Open Source</p>
 
 <br/>
 
