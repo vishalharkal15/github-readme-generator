@@ -69,7 +69,7 @@ export default function LandingPage({ onGetStarted, darkMode, onToggleDark }: Pr
           </span>
 
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tight mb-5">
-            Create a professional<br />
+            Create a Professional<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-500">
               GitHub Profile README
             </span>
