@@ -137,7 +137,7 @@ github-readme-generator/
 
 ## 🎨 Templates
 
-26 domain-specific templates available:
+26 Domain-specific templates available:
 
 | Category | Templates |
 |---|---|
