@@ -1094,6 +1094,50 @@ function quantumComputingTemplate(
 
 // ── Main Export ──────────────────────────────────────────────────────────────
 
+function creativeDeveloperTemplate(
+  profile: ProfileData,
+  portfolio: PortfolioLinks,
+  social: SocialLinksData,
+  skills: SkillsData,
+  githubStats: GitHubStatsOptions,
+): string {
+  const name = profile.fullName || 'Creative Developer';
+  const parts: string[] = [];
+  parts.push(generateBanner(name, profile.title || 'Creative Developer & Generative Artist'));
+  parts.push('');
+  parts.push(`<p align="center">
+  <img src="https://img.shields.io/badge/Creative%20Coding-p5.js-ED225D?style=for-the-badge&logo=p5dotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/3D%20Web-Three.js-black?style=for-the-badge&logo=threedotjs" />
+  <img src="https://img.shields.io/badge/Generative-Art-ff6b6b?style=for-the-badge" />
+</p>`);
+  parts.push('');
+  parts.push('## 🎨 About Me\n');
+  parts.push(generateAboutSection(profile));
+  parts.push('');
+  parts.push(`## 🖼️ Creative Philosophy
+
+> *"Code is my canvas. Logic is my brush. Every commit is a brushstroke."*
+
+I live at the intersection of art and technology — crafting experiences that are as beautiful as they are functional.
+
+| Discipline | Focus |
+|------------|-------|
+| 🎨 Generative Art | Procedural patterns, noise fields, particle systems |
+| 🌐 Interactive Web | WebGL, Canvas API, Three.js, GSAP animations |
+| 🔊 Creative Audio | Web Audio API, Tone.js, audio visualizations |
+| 🕹️ Playful Interfaces | Micro-interactions, physics simulations, game-like UX |
+| 📐 Data Visualization | D3.js, Observable, artistic data narratives |`);
+  const skills_ = generateSkillsSection(skills);
+  if (skills_) parts.push('', skills_);
+  const social_ = generateSocialSection(social);
+  if (social_) parts.push('', social_);
+  const portfolio_ = generatePortfolioSection(portfolio);
+  if (portfolio_) parts.push('', portfolio_);
+  if (profile.githubUsername) parts.push('', generateGitHubStatsSection(profile.githubUsername, githubStats));
+  parts.push('', generateFooter(name));
+  return parts.join('\n');
+}
+
 export function generateMarkdown(
   template: TemplateType,
   profile: ProfileData,
@@ -1155,6 +1199,8 @@ export function generateMarkdown(
       return softwareEngineeringTemplate(profile, portfolio, social, skills, githubStats);
     case 'quantum-computing':
       return quantumComputingTemplate(profile, portfolio, social, skills, githubStats);
+    case 'creative-developer':
+      return creativeDeveloperTemplate(profile, portfolio, social, skills, githubStats);
     default:
       return modernTemplate(profile, portfolio, social, skills, githubStats);
   }

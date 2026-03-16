@@ -70,7 +70,8 @@ export type TemplateType =
   | 'vr'
   | 'big-data'
   | 'software-engineering'
-  | 'quantum-computing';
+  | 'quantum-computing'
+  | 'creative-developer';
 
 export interface GitHubStatsOptions {
   showStats: boolean;
