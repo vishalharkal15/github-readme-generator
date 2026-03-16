@@ -190,6 +190,13 @@ const TEMPLATES: { id: TemplateType; name: string; description: string; icon: st
     icon: '⚛️',
     tags: ['Quantum', 'Qiskit', 'PennyLane'],
   },
+  {
+    id: 'creative-developer',
+    name: 'Creative Developer',
+    description: 'Generative art, creative coding, interactive experiences, and design-meets-code projects.',
+    icon: '🎨',
+    tags: ['Creative Coding', 'Generative Art', 'Interactive'],
+  },
 ];
 
 const STATS_THEMES = [
