@@ -15,7 +15,7 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Project-brightgreen?style=for-the-badge&logo=netlify)]([https://stunning-syrniki-ad75b0.netlify.app/](https://app.netlify.com/projects/readmebuilder/overview))
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Project-brightgreen?style=for-the-badge&logo=netlify)](https://readmebuilder.netlify.app/)
 [![GitHub Stars](https://img.shields.io/github/stars/vishalharkal15/github-readme-generator?style=for-the-badge&logo=github&color=yellow)](https://github.com/vishalharkal15/github-readme-generator/stargazers)
 
 </div>
@@ -209,4 +209,3 @@ This project is licensed under the **MIT License** — free to use, modify, and 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19&height=100&section=footer" />
 
 </div>
-
